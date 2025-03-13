@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API_URL = "https://backend-facturacion-dqvn.onrender.com"; 
-//const API_URL = "http://127.0.0.1:8000";  // Para backend local
+//const API_URL = "https://backend-facturacion-dqvn.onrender.com"; 
+const API_URL = "http://127.0.0.1:8000";  // Para backend local
 
 function RegistroFactura() {
     const [factura, setFactura] = useState({ cliente: "", monto: "" });
